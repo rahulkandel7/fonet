@@ -183,13 +183,13 @@
                     <ul>
 
                         <li class="py-3">
-                            <div class="grid grid-cols-7 fill">
-                                <div class="border-m border-2 rounded-full fillColor w-16 h-16 my-2" style="clip-path: circle(50% at 50% 50%);">
+                            <div class="flex fill">
+                                <div class="border-m border-2 rounded-full fillColor w-16 h-16 my-2 px-5" style="clip-path: circle(50% at 50% 50%);">
                                     <div class="flex justify-center">
                                         <i class="fas fa-book text-3xl mt-4"></i>
                                     </div>
                                 </div>
-                                <div class="col-span-6">
+                                <div class="px-5">
                                     <p class=" text-xl font-semibold">Stationary Items</p>
                                     <p class="text-sm">
                                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis odio totam impedit deserunt dolorib
@@ -199,13 +199,13 @@
                         </li>
 
                         <li class="py-3">
-                            <div class="grid grid-cols-7 fill">
-                                <div class="border-m border-2 rounded-full fillColor w-16 h-16 my-2" style="clip-path: circle(50% at 50% 50%);">
+                            <div class="flex fill">
+                                <div class="border-m border-2 rounded-full fillColor w-16 h-16 my-2 px-5" style="clip-path: circle(50% at 50% 50%);">
                                     <div class="flex justify-center">
                                         <i class="fas fa-print text-3xl mt-4"></i>
                                     </div>
                                 </div>
-                                <div class="col-span-6">
+                                <div class="px-5">
                                     <p class=" text-xl font-semibold">Printing Services</p>
                                     <p class="text-sm">
                                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis odio totam impedit deserunt dolorib
@@ -214,13 +214,13 @@
                             </div>
                         </li>
                         <li class="py-3">
-                            <div class="grid grid-cols-7 fill">
-                                <div class="border-m border-2 rounded-full fillColor w-16 h-16 my-2" style="clip-path: circle(50% at 50% 50%);">
+                            <div class="flex fill">
+                                <div class="border-m border-2 rounded-full fillColor w-16 h-16 my-2 px-5" style="clip-path: circle(50% at 50% 50%);">
                                     <div class="flex justify-center">
                                         <i class="fas fa-book text-3xl mt-4"></i>
                                     </div>
                                 </div>
-                                <div class="col-span-6">
+                                <div class="px-5">
                                     <p class=" text-xl font-semibold">Binding Services</p>
                                     <p class="text-sm">
                                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis odio totam impedit deserunt dolorib
@@ -252,14 +252,14 @@
                     <div class="grid grid-cols-1 md:grid-cols-2 my-8">
                         <div class="px-10 ">
                             <div class="bg-white shadow-xl rounded-xl h-20 moveup hover:shadow-lg">
-                                <div class="grid grid-cols-7 px-3 fill">
-                                    <div class="border-m border-2 rounded-full fillColor w-16 h-16 my-2" style="clip-path: circle(50% at 50% 50%);">
+                                <div class="flex px-3 fill items-center">
+                                    <div class="border-m border-2 rounded-full fillColor w-16 h-16 my-2 px-5" style="clip-path: circle(50% at 50% 50%);">
                                         <div class="flex justify-center">
                                             <i class="fas fa-print text-3xl mt-4"></i>
                                         </div>
                                     </div>
-                                    <div class="col-span-6">
-                                        <p class=" text-xl px-5 mt-6 ml-2 font-semibold">Printing Services</p>
+                                    <div class="ml-3">
+                                        <p class=" text-xl  font-semibold">Printing Services</p>
  
                                     </div>
                                 </div>
@@ -267,14 +267,14 @@
                         </div>
                         <div class="px-10 mt-8 md:mt-0">
                             <div class="bg-white shadow-xl rounded-xl h-20 moveup hover:shadow-lg">
-                                <div class="grid grid-cols-7 px-3 fill">
-                                    <div class="border-m border-2 rounded-full fillColor w-16 h-16 my-2" style="clip-path: circle(50% at 50% 50%);">
+                                <div class="flex px-3 fill items-center">
+                                    <div class="border-m border-2 rounded-full fillColor w-16 h-16 my-2 px-5" style="clip-path: circle(50% at 50% 50%);">
                                         <div class="flex justify-center">
-                                            <i class="fas fa-print text-3xl mt-4"></i>
+                                            <i class="fas fa-book text-3xl mt-4"></i>
                                         </div>
                                     </div>
-                                    <div class="col-span-6">
-                                        <p class=" text-xl px-5 mt-6 ml-2 font-semibold">Printing Services</p>
+                                    <div class="ml-3">
+                                        <p class=" text-xl  font-semibold">Printing Services</p>
  
                                     </div>
                                 </div>
@@ -286,14 +286,14 @@
                     <div class="grid grid-cols-1 md:grid-cols-2 my-8">
                         <div class="px-10 ">
                             <div class="bg-white shadow-xl rounded-xl h-20 moveup hover:shadow-lg">
-                                <div class="grid grid-cols-7 px-3 fill">
-                                    <div class="border-m border-2 rounded-full fillColor w-16 h-16 my-2" style="clip-path: circle(50% at 50% 50%);">
+                                <div class="flex px-3 fill items-center">
+                                    <div class="border-m border-2 rounded-full fillColor w-16 h-16 my-2 px-5" style="clip-path: circle(50% at 50% 50%);">
                                         <div class="flex justify-center">
-                                            <i class="fas fa-book text-3xl mt-4"></i>
+                                            <i class="fas fa-print text-3xl mt-4"></i>
                                         </div>
                                     </div>
-                                    <div class="col-span-6">
-                                        <p class=" text-xl px-5 mt-6 ml-2 font-semibold">Printing Services</p>
+                                    <div class="ml-3">
+                                        <p class=" text-xl  font-semibold">Printing Services</p>
  
                                     </div>
                                 </div>
@@ -301,14 +301,14 @@
                         </div>
                         <div class="px-10 mt-8 md:mt-0">
                             <div class="bg-white shadow-xl rounded-xl h-20 moveup hover:shadow-lg">
-                                <div class="grid grid-cols-7 px-3 fill">
-                                    <div class="border-m border-2 rounded-full fillColor w-16 h-16 my-2" style="clip-path: circle(50% at 50% 50%);">
+                                <div class="flex px-3 fill items-center">
+                                    <div class="border-m border-2 rounded-full fillColor w-16 h-16 my-2 px-5" style="clip-path: circle(50% at 50% 50%);">
                                         <div class="flex justify-center">
-                                            <i class="fas fa-print text-3xl mt-4"></i>
+                                            <i class="fas fa-book text-3xl mt-4"></i>
                                         </div>
                                     </div>
-                                    <div class="col-span-6">
-                                        <p class=" text-xl px-5 mt-6 ml-2 font-semibold">Printing Services</p>
+                                    <div class="ml-3">
+                                        <p class=" text-xl  font-semibold">Printing Services</p>
  
                                     </div>
                                 </div>
@@ -320,14 +320,14 @@
                     <div class="grid grid-cols-1 md:grid-cols-2 my-8">
                         <div class="px-10 ">
                             <div class="bg-white shadow-xl rounded-xl h-20 moveup hover:shadow-lg">
-                                <div class="grid grid-cols-7 px-3 fill">
-                                    <div class="border-m border-2 rounded-full fillColor w-16 h-16 my-2" style="clip-path: circle(50% at 50% 50%);">
+                                <div class="flex px-3 fill items-center">
+                                    <div class="border-m border-2 rounded-full fillColor w-16 h-16 my-2 px-5" style="clip-path: circle(50% at 50% 50%);">
                                         <div class="flex justify-center">
                                             <i class="fas fa-print text-3xl mt-4"></i>
                                         </div>
                                     </div>
-                                    <div class="col-span-6">
-                                        <p class=" text-xl px-5 mt-6 ml-2 font-semibold">Printing Services</p>
+                                    <div class="ml-3">
+                                        <p class=" text-xl  font-semibold">Printing Services</p>
  
                                     </div>
                                 </div>
@@ -335,14 +335,14 @@
                         </div>
                         <div class="px-10 mt-8 md:mt-0">
                             <div class="bg-white shadow-xl rounded-xl h-20 moveup hover:shadow-lg">
-                                <div class="grid grid-cols-7 px-3 fill">
-                                    <div class="border-m border-2 rounded-full fillColor w-16 h-16 my-2" style="clip-path: circle(50% at 50% 50%);">
+                                <div class="flex px-3 fill items-center">
+                                    <div class="border-m border-2 rounded-full fillColor w-16 h-16 my-2 px-5" style="clip-path: circle(50% at 50% 50%);">
                                         <div class="flex justify-center">
-                                            <i class="fas fa-book text-3xl mt-4"></i>
+                                            <i class="fas fa-print text-3xl mt-4"></i>
                                         </div>
                                     </div>
-                                    <div class="col-span-6">
-                                        <p class=" text-xl px-5 mt-6 ml-2 font-semibold">Printing Services</p>
+                                    <div class="ml-3">
+                                        <p class=" text-xl  font-semibold">Printing Services</p>
  
                                     </div>
                                 </div>
@@ -738,17 +738,19 @@
                 nav:false,
                 // autoWidth:true,
                 autoplayTimeout:1500,
+                center: true,
                 autoplay:true,
                 autoplayHoverPause:true,
                 responsive:{
                     0:{
-                        items:2,
+                        items:1,
+                        
                     },
                     600:{
-                        items:3,
+                        items:2,
                     },
                     1000:{
-                        items:4,
+                        items:3,
                     },
                     1200:{
                         items:4,
