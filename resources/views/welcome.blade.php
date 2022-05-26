@@ -53,80 +53,82 @@
         
     </head>
     <body class="antialiased" style="font-family: 'Poppins', sans-serif;">
-        <div class="w-11/12 mx-auto" x-data="{isNav: false}">
-            <nav class="py-2">
-                <div class="inline-block">
-                    <img src="{{asset('images/logo.jpeg')}}" class="w-10">
-                </div>
-                {{-- Navbar for screen greater than medium screen --}}
-                <div class=" float-right mt-3 hidden md:inline-block">
-                    <ul class="inline-block">
-                        <li class="inline-block px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
-                            <a>Home</a>
-                        </li>
-                        <li class="inline-block px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
-                            <a href="#aboutus">About Us</a>
-                        </li>
-                        <li class="inline-block px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
-                            <a href="#teams">Teams</a>
-                        </li>
-                        <li class="inline-block px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
-                            <a href="#services">Services</a>
-                        </li>
-                        <li class="inline-block px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
-                            <a>Rate List</a>
-                        </li>
-                        <li class="inline-block px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
-                            <a href="#gallery">Gallery</a>
-                        </li>
-                        <li class="inline-block px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
-                            <a href="#contactus">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-                    <template x-if="isNav == true">
-                        <button class="float-right mt-3 md:hidden" @click="isNav=false">
-                            <i class="fas fa-times text-3xl"></i>
-                        </button>
-                    </template>
-                    <template x-if="isNav == false">
-                        <button class="float-right mt-3 md:hidden" @click="isNav=true">
-                            <i class="fas fa-bars text-3xl"></i>
-
-                        </button>
-                    </template>
-
-                <div x-show="isNav" class="md:hidden" x-transition:enter="transition ease-out duration-300"
-                    x-transition:enter-start="opacity-0 transform scale-90"
-                    x-transition:enter-end="opacity-100 transform scale-100"
-                    x-transition:leave="transition ease-in duration-300"
-                    x-transition:leave-start="opacity-100 transform scale-100"
-                    x-transition:leave-end="opacity-0 transform scale-90">
-                    <ul>
-                        <li class=" py-3 px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
-                            <a>Home</a>
-                        </li>
-                        <li class=" py-3 px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
-                            <a href="#aboutus">About Us</a>
-                        </li>
-                        <li class=" py-3 px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
-                            <a href="#teams">Teams</a>
-                        </li>
-                        <li class=" py-3 px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
-                            <a href="#services">Services</a>
-                        </li>
-                        <li class=" py-3 px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
-                            <a>Rate List</a>
-                        </li>
-                        <li class=" py-3 px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
-                            <a href="#gallery">Gallery</a>
-                        </li>
-                        <li class=" py-3 px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
-                            <a  href="#contactus">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+        <div class="w-full bg-white sticky top-0 z-10">
+            <div class="w-11/12 mx-auto" x-data="{isNav: false}">
+                <nav class="py-2">
+                    <div class="inline-block">
+                        <img src="{{asset('images/logo.jpeg')}}" class="w-10">
+                    </div>
+                    {{-- Navbar for screen greater than medium screen --}}
+                    <div class=" float-right mt-3 hidden md:inline-block ">
+                        <ul class="inline-block">
+                            <li class="inline-block px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
+                                <a>Home</a>
+                            </li>
+                            <li class="inline-block px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
+                                <a href="#aboutus">About Us</a>
+                            </li>
+                            <li class="inline-block px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
+                                <a href="#teams">Teams</a>
+                            </li>
+                            <li class="inline-block px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
+                                <a href="#services">Services</a>
+                            </li>
+                            <li class="inline-block px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
+                                <a>Rate List</a>
+                            </li>
+                            <li class="inline-block px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
+                                <a href="#gallery">Gallery</a>
+                            </li>
+                            <li class="inline-block px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
+                                <a href="#contactus">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                        <template x-if="isNav == true">
+                            <button class="float-right mt-3 md:hidden" @click="isNav=false">
+                                <i class="fas fa-times text-3xl"></i>
+                            </button>
+                        </template>
+                        <template x-if="isNav == false">
+                            <button class="float-right mt-3 md:hidden" @click="isNav=true">
+                                <i class="fas fa-bars text-3xl"></i>
+    
+                            </button>
+                        </template>
+    
+                    <div x-show="isNav" class="md:hidden" x-transition:enter="transition ease-out duration-300"
+                        x-transition:enter-start="opacity-0 transform scale-90"
+                        x-transition:enter-end="opacity-100 transform scale-100"
+                        x-transition:leave="transition ease-in duration-300"
+                        x-transition:leave-start="opacity-100 transform scale-100"
+                        x-transition:leave-end="opacity-0 transform scale-90">
+                        <ul>
+                            <li class=" py-3 px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
+                                <a>Home</a>
+                            </li>
+                            <li class=" py-3 px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
+                                <a href="#aboutus">About Us</a>
+                            </li>
+                            <li class=" py-3 px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
+                                <a href="#teams">Teams</a>
+                            </li>
+                            <li class=" py-3 px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
+                                <a href="#services">Services</a>
+                            </li>
+                            <li class=" py-3 px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
+                                <a>Rate List</a>
+                            </li>
+                            <li class=" py-3 px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
+                                <a href="#gallery">Gallery</a>
+                            </li>
+                            <li class=" py-3 px-2 text-m hover:opacity-100 opacity-80 cursor-pointer">
+                                <a  href="#contactus">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
         </div>
         <div class="w-full pb-36 bg-c clip" id="home">
             <div class="w-11/12 mx-auto">
@@ -143,7 +145,7 @@
                                 Computer Solution.  
                             </p>
 
-                            <a class="px-5 py-2 inline-block border-m border-2 rounded-full hover:bg-m text-white shadow-md hover:shadow-sm cursor-pointer transition-all delay-100 ease-in-out" href="#aboutus">
+                            <a class="px-5 py-2 inline-block border-m border-2 rounded-full hover:bg-m text-white shadow-md hover:shadow-sm cursor-pointer transition-all " href="#aboutus">
                                 Get Started
                             </a>
                             <a class="ml-6 px-5 py-2 inline-block bg-m border-2 border-m rounded-full hover:bg-c text-white shadow-md hover:shadow-sm cursor-pointer transition-all delay-100 ease-in-out" href="#services">
@@ -598,8 +600,8 @@
                             <div>
                                 <input type="text" name="name" id="name" class="rounded-md shadow-sm border-c focus:ring-y focus:border-m hover:border-m my-2" placeholder="Your Name" required>
                                 <input type="email" name="email" id="email" class="rounded-md shadow-sm border-c focus:ring-y focus:border-m hover:border-m my-2" placeholder="Your Email Address" required>
-                                <input type="text" name="subject" id="subject" class="rounded-md shadow-sm border-c focus:ring-y focus:border-m hover:border-m my-2" placeholder="Subject" required>
-                                <textarea  name="message" id="message" class="rounded-md shadow-sm border-c focus:ring-y focus:border-m hover:border-m my-2"  placeholder="Message" required>  </textarea>
+                                <input type="text" name="subject" id="subject" class="rounded-md shadow-sm border-c focus:ring-y focus:border-m hover:border-m my-2 w-full" placeholder="Subject" required>
+                                <textarea  name="message" id="message" class="rounded-md shadow-sm border-c focus:ring-y focus:border-m hover:border-m my-2 w-full"  placeholder="Your Message" required></textarea>
                                 <input type="submit" value="submit" class="rounded-md px-4 py-2 bg-y block shadow-md hover:shadow-lg cursor-pointer">
                             </div>
                         </form>
